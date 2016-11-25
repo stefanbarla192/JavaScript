@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>JSON and AJAX Exercise</title>
+        <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet"/>
+        <link href="myCSS.css" type="text/css" rel="stylesheet" />
+        <script src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+        
+    </head>
+    <body class="mainPic mainCol">
+        <div class="container">
+        <div class="jumbotron mainHeading">
+        <h1>Luxury Cars</h1>
+        </div>
+    
+            
+         <div class="row">   
+          <div class="col-md-12"> 
+            <div class="jumbotron linkBridge">
+             
+            
+         <div class="row">
+        <div class="col-md-3">
+   
+            <select id="manufacturer"  class="btn btn-primary"> 
+            <option value="">Choose a Car Manufacturer</option>
+            <option value="0">Porsche</option>
+            <option value="1" name="https://www.youtube.com/embed/BmTcmz6lh00">Nissan</option>
+            <option value="2">BMW</option>
+            <option value="3">Audi</option>
+            <!--<option value="4">Ferrari</option>-->
+            
+            </select>
+            
+        </div>  
+            
+             
+            <div id="messageAlert" class="col-md-6 warningText">
+
+            
+            
+        </div>
+             
+             
+        <div class="col-md-3">
+
+            <select id="survey"  class="btn btn-primary alignR"> 
+            <option value="column">Choose a Survey Chart Type</option>
+            <option value="column">Column</option>
+            <option value="bar">Bar</option>
+            <option value="doughnut">Doughnut</option>
+            <option value="line">Line</option>
+            
+            </select>
+            
+        </div>
+        </div>  
+     
+             </div>
+            </div> 
+            </div> 
+            
+            
+        <div id="main-content">
+            <div class="jumbotron">
+        
+            <div class="row">    
+               
+             <div class="col-md-3"><h4>Manufacturer</h4>  
+                  
+            <div id="manufacturerC" class="data">
+            </div>
+                 
+                 
+                 <br>
+                 
+                 <h4>Model</h4>
+                 <div id="modelC" class="data">
+                </div>
+                 
+                 <br>
+                 
+                 <h4>Price</h4>
+                 <div id="priceC" class="data">
+                </div>
+                 
+                 <br>
+                 
+                 <h4>Description</h4>
+                 <div id="descriptionC" class="descriptionC">
+                </div>
+                 
+                 <br><br>
+                 
+                 <!--<h4>Disclosure</h4>
+                 <div id="disclosureC" class="disclosureC">
+                     This project was developed by Manuel Cubuca entirely for training purpose.
+                </div>
+                 -->
+                 
+                 <h4>Video</h4>
+                 <div id="videoC" class="imgRotator">
+
+                </div>
+                 
+                 
+                 
+                </div>
+                
+                <div class="col-md-3 col-md-offset-1" id="muscleContainer"><h4>Quality Survey Scores</h4>  
+                  
+                Customer Satisfaction Survey
+                
+                    
+                <h4>Overall</h4>
+                 <div id="overallC" class="data">
+                </div>
+                 
+                 <br>
+                 
+                 <h4>Mechanical</h4>
+                 <div id="mechanicalC" class="data">
+                </div>
+                 
+                 <br>
+                 
+                 <h4>Powertrain</h4>
+                 <div id="powertrainC" class="data">
+                </div>
+                    
+                    <br>
+                    
+                    <h4>Body</h4>
+                 <div id="bodyC" class="data">
+                </div>
+                 
+                 <br>
+                 
+                 <h4>Interior</h4>
+                 <div id="interiorC" class="data">
+                </div>
+                 
+                 <br>
+                 
+                 <h4>Accessories</h4>
+                 <div id="accessoriesC" class="data">
+                </div>
+                    
+                
+                </div>
+            
+                
+                 
+                 <div class="col-md-5" id="exercise_pics"><h4>Car Picture</h4><br><span id="imgC" class="imgRotator"></span>
+                
+                <!--<div class="imgRotator"><h4>Graph Scores</h4></div>-->
+                
+                     
+                <div class="row">
+                <div class="col-md-12">
+                <div id="chartContainer">
+
+                </div>
+                 </div>    
+                </div> 
+                
+                </div>
+                
+             </div>   
+                
+            </div>
+        
+        </div>
+        <script src="jquery-1.11.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="myJS.js"></script>
+        
+        </div>
+    </body>
+
+
+</html>

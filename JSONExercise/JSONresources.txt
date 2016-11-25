@@ -1,0 +1,74 @@
+
+Resources for the JSON exercise.
+
+1. Google search term:
+JSON car data
+
+2. Website for the JSON file on GitHub:
+https://github.com/SenchaArchitect/CarListings/blob/master/CarListings/data/cars.json
+
+3. JSON validator website:
+https://jsonformatter.curiousconcept.com/
+
+4. YouTube JSON tutorials:
+a) https://www.youtube.com/watch?v=_NFkzw6oFtQ
+
+5. Link for a good API to work with:
+http://www.carqueryapi.com/
+
+6. YouTube AJAX tutorials:
+a) https://www.youtube.com/watch?v=rJesac0_Ftw
+b) https://www.youtube.com/watch?v=rlLuL3jYLvA
+c) https://www.youtube.com/watch?v=zPHerhks2Vg
+
+What's XMLHttpRequest?
+Web browsers have a built in tool called XMLHttpRequest to do the heavy lifting for us.  It will establish a connection with the URL specified and then let us send or receive data.
+
+In reality it's an object buit into the browser, and we can create an instance of this object like this:
+
+var myRequest = new XMLHttpRequest();
+
+
+The ready state:
+
+0 - request not initialised
+1 - request has been set up
+2 - request has been sent
+3 - request is in progress
+4 - request is complete
+
+An example of the function:
+
+window.onload = function() {
+
+var http = new XMLHttpRequest();
+
+http.onreadystatechange = function() {
+	
+	console.log(http);
+	if(http.readyState == 4 && http.Status == 200) {
+	console.log(JSON.parse(http.response))
+	}
+};
+	http.open("GET", "dta/tweets.json", true);
+	http.send();
+
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

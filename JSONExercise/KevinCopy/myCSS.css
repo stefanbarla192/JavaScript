@@ -1,0 +1,22 @@
+div.jumbotron {
+    /*width: 50%;
+    margin: 20px 0 0 0 !important;
+    padding-right: 0 !important;*/
+    margin-top: 30px;
+}
+
+.jumbotron p {
+    font-size: 1.3rem !important;
+}
+
+#exercise_pics, #muscleContainer {
+    text-align: center !important;
+}
+
+/*div.muscle-background {
+    width: 180px;
+    height: 276px;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-image: url(../static/images/muscles/main/muscle-2.svg),url(/static/images/muscles/muscular_system_front.svg);
+}*/
